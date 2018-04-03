@@ -1,4 +1,4 @@
-#qwbctf  silent2  wp
+# qwbctf  silent2  wp
 
 这道题只有一个uaf漏洞，没有溢出，申请的堆块不能是`fastbin chunk`。
 几个比较关键的点是：
